@@ -44,7 +44,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo-footer2.png" alt="Homepage">
+                <img src="images/logo-header.png" alt="Homepage">
             </a>
         </div>
 
@@ -66,9 +66,9 @@
     
     
                 <ul class="header-nav__social">
-                    <li>
+                    <!-- <li>
                         <a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="https://x.com/BalajiCasting"><i class="fa fa-twitter"></i></a>
                     </li>
@@ -131,14 +131,14 @@
 
 
         <ul class="home-social">
-            <li>
+            <!-- <li>
                 <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li> -->
+            <li>
+                <a href="https://x.com/BalajiCasting"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-            </li>
-            <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a href="https://www.instagram.com/balajicastingandtraders/"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
         </ul> 
         <!-- end home-social -->
@@ -759,7 +759,7 @@
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <!-- <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
     
                     <div class="form-field">
@@ -787,16 +787,49 @@
                     </div>
     
                     </fieldset>
+                </form> -->
+                <form name="contactForm" id="contactForm" method="post" action="https://api.web3forms.com/submit" novalidate="novalidate">
+                    <fieldset>
+                
+                        <!-- Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="1111e857-030b-4514-863e-5be9a099b471" />
+                
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" minlength="2" required aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" required aria-required="true" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required aria-required="true" class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button type="submit" class="full-width btn--primary">Submit</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </fieldset>
                 </form>
+                
 
                 <!-- contact-warning -->
                 <div class="message-warning">
-                    Something went wrong. Please try again.
+                    Yikes! A squirrel chewed the wires. Try again! 🐿️⚡
                 </div> 
             
                 <!-- contact-success -->
                 <div class="message-success">
-                    Your message was sent, thank you!<br>
+                    Message delivered! Our carrier pigeons are on it. 🕊️<br>
                 </div>
 
             </div> <!-- end contact-primary -->
@@ -832,9 +865,9 @@
                     </div>
 
                     <ul class="contact-social">
-                        <li>
+                        <!-- <li>
                             <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="https://x.com/BalajiCasting"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </li>
@@ -859,23 +892,23 @@
 
             <div class="col-six tab-full left footer-desc">
 
-                <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+                <!-- <div class="footer-logo"></div> -->
+                At Balaji Casting & Traders, we make machine parts so good, even machines give us a standing ovation (or at least a well-oiled nod). Whether you're looking for precision, durability, or just an excuse to upgrade your machinery, we’ve got the perfect fit. No loose screws here - just top-notch quality and a whole lot of metal magic!
 
             </div>
 
             <div class="col-six tab-full right footer-subscribe">
 
-                <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                <h4>Get Quotation</h4>
+                <p>Have a specific requirement or need a quote? 🛠️ Send us your Email ID, and our team will get back to you with the best solutions. We’re here to help!</p>
 
-                <!-- <div class="subscribe-form">
+                <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Your Email Address" required="">
+                        <input type="submit" name="subscribe" value="Send" id="mc-submit" disabled>
                         <label for="mc-email" class="subscribe-message"></label>
                     </form>
-                </div> -->
+                </div>
 
             </div>
 
@@ -959,6 +992,99 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Contact Form Submission
+            document.getElementById("contactForm").addEventListener("submit", async function (event) {
+                event.preventDefault(); // Prevent default form submission
+    
+                let form = event.target;
+                let contactName = document.getElementById("contactName").value.trim();
+                let contactEmail = document.getElementById("contactEmail").value.trim();
+                let contactSubject = document.getElementById("contactSubject").value.trim();
+                let contactMessage = document.getElementById("contactMessage").value.trim();
+    
+                // Validation: Check if required fields are filled
+                if (contactName === "" || contactEmail === "" || contactMessage === "") {
+                    document.querySelector(".message-warning").style.display = "block";
+                    document.querySelector(".message-warning").innerHTML = "Please fill in all required fields.";
+                    return; // Stop submission
+                }
+    
+                let formData = new FormData(form);
+                let response = await fetch(form.action, {
+                    method: form.method,
+                    body: formData,
+                });
+    
+                let result = await response.json();
+    
+                if (result.success) {
+                    document.querySelector(".message-success").style.display = "block";
+                    document.querySelector(".message-warning").style.display = "none";
+                    form.reset(); // Reset form fields
+                } else {
+                    document.querySelector(".message-warning").style.display = "block";
+                    document.querySelector(".message-warning").innerHTML = "Yikes! A squirrel chewed the wires. Try again! 🐿️⚡";
+                    document.querySelector(".message-success").style.display = "none";
+                }
+            });
+    
+            // Subscription Form Functionality
+            const emailInput = document.getElementById("mc-email");
+            const submitBtn = document.querySelector("#mc-form input[type='submit']");
+            const emailMessage = document.querySelector(".subscribe-message");
+    
+            function validateEmail(email) {
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailPattern.test(email);
+            }
+    
+            // Enable button only if email is valid
+            emailInput.addEventListener("input", function () {
+                if (validateEmail(emailInput.value.trim())) {
+                    submitBtn.disabled = false;
+                    emailMessage.textContent = "";
+                } else {
+                    submitBtn.disabled = true;
+                    emailMessage.textContent = "Please enter a valid email.";
+                }
+            });
+    
+            document.getElementById("mc-form").addEventListener("submit", async function (event) {
+                event.preventDefault(); // Prevent default form submission
+    
+                let email = emailInput.value.trim();
+                if (!validateEmail(email)) {
+                    emailMessage.textContent = "Invalid email address.";
+                    return;
+                }
+    
+                let formData = new FormData(this);
+                formData.append("subject", "Quotation Request");
+                formData.append("message", "User has requested a quotation. Please send details.");
+                formData.append("access_key", "1111e857-030b-4514-863e-5be9a099b471");
+    
+                let response = await fetch("https://api.web3forms.com/submit", {
+                    method: "POST",
+                    body: formData,
+                });
+    
+                let result = await response.json();
+                if (result.success) {
+                    emailMessage.textContent = "Quotation request sent successfully!";
+                    this.reset();
+                    submitBtn.disabled = true; // Disable button after successful submission
+                } else {
+                    emailMessage.textContent = "Something went wrong. Please try again.";
+                }
+            });
+        });
+    </script>
+    
+    
+        
+        
 
 </body>
 
