@@ -1446,6 +1446,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: inline-block;
     position: absolute;
     margin: 0;
+    margin-top: 20px;
     padding: 0;
     left: 40px;
     top: 50%;
@@ -3383,7 +3384,7 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer2.png") no-repe   at center ;
+    background: url("../images/logo-footer.png") no-repe   at center ;
     background-size: 85px 28px;
     font: 0/0 a;
     text-shadow: none;
